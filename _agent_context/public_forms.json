@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "schichtplan",
+      "app_id": "6a26d437aa06a821653cb480",
+      "path": "/rest/apps/6a26d437aa06a821653cb480/records",
+      "allowed_fields": [
+        "datum",
+        "notiz"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Schichtplan — Formular"
+    },
+    {
+      "entity": "mitarbeitende",
+      "app_id": "6a26d4338b9ba3ce84ee6789",
+      "path": "/rest/apps/6a26d4338b9ba3ce84ee6789/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitarbeitende — Formular"
+    }
+  ]
+}

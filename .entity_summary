@@ -1,0 +1,4 @@
+- Schichtplan (schichtplan): datum[date/date], mitarbeiter_fruehschicht[applookup/select], mitarbeiter_spaetschicht[applookup/select], notiz[string/textarea]
+  → mitarbeiter_fruehschicht links to app_id 6a26d4338b9ba3ce84ee6789
+  → mitarbeiter_spaetschicht links to app_id 6a26d4338b9ba3ce84ee6789
+- Mitarbeitende (mitarbeitende): vorname[string/text], nachname[string/text], bemerkung[string/textarea]

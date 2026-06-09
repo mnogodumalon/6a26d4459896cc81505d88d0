@@ -1,0 +1,13 @@
+{
+  "SchichtplanDialog.tsx": {
+    "datum": "z. B. 15.06.2026",
+    "mitarbeiter_fruehschicht": "Mitarbeiter wählen",
+    "mitarbeiter_spaetschicht": "Mitarbeiter wählen",
+    "notiz": "Besonderheiten, Ausfälle, Anmerkungen..."
+  },
+  "MitarbeitendeDialog.tsx": {
+    "vorname": "z. B. Alex",
+    "nachname": "z. B. Müller",
+    "bemerkung": "Qualifikationen, Verfügbarkeiten, Notizen..."
+  }
+}

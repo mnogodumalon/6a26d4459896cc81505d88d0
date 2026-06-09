@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Schichtplan": {
+      "placeholders_set": 4,
+      "defaults_keys": ["datum"],
+      "computed_keys": [],
+      "reason": "Planungsdaten ohne numerische Berechnung. Keine Preisfelder, keine Mengen, keine Datumspaar für dateDiff, keine applookup-Preis-Targets. Nur fieldOrder-Optimierung (Datum + 2-spaltige Schicht-Pair + Notiz) und Default für Datum (heute)."
+    },
+    "Mitarbeitende": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Vorname, Nachname, Bemerkung). Keine numerischen oder berechenbaren Felder. fieldOrder mit Vorname+Nachname-Pair (1fr 1fr) + Bemerkung am Ende ist bereits im Skeleton gesetzt."
+    }
+  }
+}
